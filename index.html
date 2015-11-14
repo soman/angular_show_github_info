@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app>
+<html>
 
   <head>
     <script data-require="angular.js@*" data-semver="2.0.0-alpha.45" 
@@ -8,8 +8,14 @@
     <script src="custom.js"></script>
   </head>
 
-  <body ng-controller="HelloController">
-    <h1>{{message}}</h1>
+  <body ng-app="GetGitHubUserInfo">
+    <div ng-controller="HelloController">
+      <div>Show github user info:</div>
+      <br />
+      <div>Name: {{user.name}}</div>
+      <br />
+      <div><img src="{{user.avatar_url}}"></div>
+    </div>
   </body>
 
 </html>
