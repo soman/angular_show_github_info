@@ -1,2 +1,2 @@
-# angular_hello_world
-Print Hello World!
+# angular_show_github_info
+Displaying github user information.
